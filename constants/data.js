@@ -3,6 +3,7 @@ const userData = {
   name: "Aanchal Sahu",
   designation: "Full-Stack Developer",
   avatarUrl: "/avatar.png",
+  contactUrl: "/contact-me-girl.svg",
   email: "98saanchal@gmail.com",
   phone: "+91 8770965469",
   address: "Bhilai, Chhattisgarh, India.",
@@ -75,7 +76,7 @@ const userData = {
       company: "Bizolution Technologies Pvt. Ltd.",
       year: "2023",
       companyLink: "https://www.bizolutiontech.com/",
-      desc: "Contributed to our lead product - Entera - which is an employee and payroll management SASS product.",
+      desc: "I'm one of two main leads in our main product - Entera - which is an employee and payroll management SASS product.",
     },
     {
       title: "Associate Software Developer",
@@ -96,7 +97,7 @@ const userData = {
       company: "Arawinz Soft Solutions",
       year: "2019",
       companyLink: "https://www.arawinz.com/",
-      desc: "Developed pothole detection system with OpenCV and computer vision, detects potholes on roads and informs the driver.",
+      desc: "Worked here as an content writer, wrote many eceptional contents for the main product- Esay.in.",
     },
     {
       title: "Internship-1",
@@ -117,7 +118,7 @@ const userData = {
       company: "BSP S.S.S. School-7, Bhilai.",
       year: "2016",
       companyLink: "https://schools.org.in/durg/22100721604/bsp-higher-secondary-school-sector-7-bhilai.html",
-      desc: "Subjects being PCM - I barely survived with 93.6% marks aggregate. Flex fridays, fellas.",
+      desc: "Subjects being PCM and CS as an additional subject (where it all started!)",
     },
   ],
   resumeUrl:

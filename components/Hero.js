@@ -15,6 +15,9 @@ export default function Hero() {
     refAnimationInstance.current = instance;
   }, []);
 
+
+
+
   const nextTickAnimation = useCallback(() => {
     if (refAnimationInstance.current) {
       refAnimationInstance.current(getAnimationSettings(0.1, 0.3));
@@ -47,26 +50,31 @@ export default function Hero() {
 
   return (
     <div className="justify-center flex my-10 " onClick={() => { setFire(!fire) }}>
-      <ReactCanvasConfetti refConfetti={getInstance} style={canvasStyles} colors={['#A020F0']}/>
+      <ReactCanvasConfetti refConfetti={getInstance} style={canvasStyles} colors={['#A020F0']} />
 
       {/* Text container*/}
       <div className="mx-auto text-center md:text-center lg:p-20">
         <RoughNotationGroup show={true}>
-          <RainbowHighlight color={colors_hey[0]}>
-            <h3 className="text-4xl md:text-4xl font-bold text-gray-700 dark:text-gray-200 my-2 px-5 ">
-              <button onClick={startAnimation}>Wanna see something fun? Click me!</button>
-            </h3>
-          </RainbowHighlight>
           <RainbowHighlight color={colors_hey[1]}>
             <h1 className="text-4xl md:text-4xl font-bold text-gray-700 dark:text-gray-200 my-2">
-              <button onClick={pauseAnimation}>Wanna Pause?</button>
+              <button
+              //  onClick={pauseAnimation}
+              >breathe in...breathe out....</button>
             </h1>
           </RainbowHighlight>
-          <RainbowHighlight color={colors_hey[2]}>
-            <h1 className="text-4xl md:text-4xl font-bold text-gray-700 dark:text-gray-200 my-2">
-              <button onClick={stopAnimation}>Okay, that's it, Thanks!</button>
-            </h1>
-          </RainbowHighlight>
+          {!fire ?
+            <RainbowHighlight color={colors_hey[0]}>
+              <h3 className="text-4xl md:text-4xl font-bold text-gray-700 dark:text-gray-200 my-2 px-5 ">
+                <button onClick={startAnimation}>Now, wanna see something fun? Click me!</button>
+              </h3>
+            </RainbowHighlight>
+            :
+
+            <RainbowHighlight color={colors_hey[2]}>
+              <h1 className="text-4xl md:text-4xl font-bold text-gray-700 dark:text-gray-200 my-2">
+                <button onClick={stopAnimation}>Click to Stop, Thanks!</button>
+              </h1>
+            </RainbowHighlight>}
         </RoughNotationGroup>
       </div>
       {/* Image container */}
