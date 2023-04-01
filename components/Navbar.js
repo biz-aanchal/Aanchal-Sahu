@@ -28,8 +28,8 @@ export default function Navbar() {
           </Link>
         </div>
 
-        <div className="space-x-8 hidden md:block">
-          <Link
+        <div className="space-x-6 hidden md:block px-3">
+          {/* <Link
             href="/about"
             className={`text-base  ${
               router.asPath === "/about"
@@ -53,7 +53,7 @@ export default function Navbar() {
                 />
               </svg>
             )}
-          </Link>
+          </Link> */}
           {/* <Link
             href="/projects"
             className={`text-base  ${
@@ -209,18 +209,18 @@ export default function Navbar() {
         </div>
       </div>
       <div className="space-x-8 block md:hidden mt-4">
-        <Link
+        {/* <Link
           href="/about"
           className="text-base font-normal text-gray-600 dark:text-gray-300"
         >
           About
-        </Link>
-        <Link
+        </Link> */}
+        {/* <Link
           href="/projects"
           className="text-base font-normal text-gray-600 dark:text-gray-300"
         >
           Projects
-        </Link>
+        </Link> */}
         <Link
           href="/experience"
           className="text-base font-normal text-gray-600 dark:text-gray-300"
