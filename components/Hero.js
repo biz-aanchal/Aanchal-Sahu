@@ -15,8 +15,12 @@ export default function Hero() {
     refAnimationInstance.current = instance;
   }, []);
 
+  const myTimeout = setTimeout(myGreeting, 3000);
 
-
+  function myGreeting() {
+    setFire(false)
+    stopAnimation()
+  }
 
   const nextTickAnimation = useCallback(() => {
     if (refAnimationInstance.current) {
@@ -31,10 +35,10 @@ export default function Hero() {
     }
   }, [intervalId, nextTickAnimation]);
 
-  const pauseAnimation = useCallback(() => {
-    clearInterval(intervalId);
-    setIntervalId(null);
-  }, [intervalId]);
+  // const pauseAnimation = useCallback(() => {
+  //   clearInterval(intervalId);
+  //   setIntervalId(null);
+  // }, [intervalId]);
 
   const stopAnimation = useCallback(() => {
     clearInterval(intervalId);
@@ -48,6 +52,11 @@ export default function Hero() {
     };
   }, [intervalId]);
 
+  useEffect(() => {
+    setFire(true)
+    startAnimation()
+  }, []);
+
   return (
     <div className="justify-center flex my-10 " onClick={() => { setFire(!fire) }}>
       <ReactCanvasConfetti refConfetti={getInstance} style={canvasStyles} colors={['#A020F0']} />
@@ -59,10 +68,10 @@ export default function Hero() {
             <h1 className="text-4xl md:text-4xl font-bold text-gray-700 dark:text-gray-200 my-2">
               <button
               //  onClick={pauseAnimation}
-              >breathe in...breathe out....</button>
+              >Hello There!</button>
             </h1>
           </RainbowHighlight>
-          {!fire ?
+          {/* {!fire ?
             <RainbowHighlight color={colors_hey[0]}>
               <h3 className="text-4xl md:text-4xl font-bold text-gray-700 dark:text-gray-200 my-2 px-5 ">
                 <button onClick={startAnimation}>Now, wanna see something fun? Click me!</button>
@@ -74,7 +83,7 @@ export default function Hero() {
               <h1 className="text-4xl md:text-4xl font-bold text-gray-700 dark:text-gray-200 my-2">
                 <button onClick={stopAnimation}>Click to Stop, Thanks!</button>
               </h1>
-            </RainbowHighlight>}
+            </RainbowHighlight>} */}
         </RoughNotationGroup>
       </div>
       {/* Image container */}

@@ -2,6 +2,7 @@ import React from "react";
 import userData from "@constants/data";
 
 export default function Footer() {
+
   return (
     <div className="bg-[#F1F1F1] dark:bg-gray-900 ">
       <div className="max-w-6xl  mx-auto px-4 py-10 md:py-10">
@@ -18,7 +19,7 @@ export default function Footer() {
               <div className="inline-block transform hover:scale-110 hover:-rotate-3 transition duration-300">
                 <a
                   className="hover:bg-red-500 rounded-md px-2 py-1  hover:text-gray-50"
-                  // href="https://manuarora.in"
+                  href={userData?.socialLinks?.linkedin}
                 >
                   Aanchal Sahu
                 </a>
