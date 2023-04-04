@@ -65,15 +65,18 @@ export default function Hero() {
       <div className="mx-auto text-center md:text-center lg:p-20">
         <RoughNotationGroup show={true}>
           <RainbowHighlight color={colors_hey[1]}>
-            <h1 className="text-2xl md:text-5xl font-bold text-gray-600 dark:text-white my-2">
+            <h1 className="text-2xl md:text-5xl font-bold text-black dark:text-white my-2">
               <button
               //  onClick={pauseAnimation}
               >Hello!</button>
             </h1>
           </RainbowHighlight>
           <RainbowHighlight color={colors_hey[0]}>
-              <h1 className="text-1xl md:text-2xl font-400 text-gray-700 dark:text-white my-5">
-                <button onClick={stopAnimation}>Just to inform you, this website is under construction. But you definitely can check the experience and contact us page! {'  '}</button>
+              <h1 className="text-1xl md:text-2xl font-400 text-black dark:text-white my-5">
+                <button 
+                // onClick={stopAnimation}
+                >
+                Thankyou for visiting! This website is under construction. But you definitely can check the experience and contact us page! {'  '}</button>
               </h1>
             </RainbowHighlight>
           {/* {!fire ?

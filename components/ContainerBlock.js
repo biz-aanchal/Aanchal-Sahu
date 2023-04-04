@@ -15,7 +15,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
     ...customMeta,
   };
   return (
-    <div>
+    <div className=" bg-[#913159]">
       <Head>
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
@@ -42,7 +42,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
           <meta property="article:published_time" content={meta.date} />
         )}
       </Head>
-      <main className="dark:bg-gray-800 min-w-full h-[100vh] flex flex-col justify-between">
+      <main className="dark:bg-gray-800 min-w-full h-[100vh] flex flex-col justify-between ">
         <Navbar />
         <div className="">{children}</div>
         <Footer />

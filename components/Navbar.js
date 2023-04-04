@@ -15,14 +15,14 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="max-w-6xl  mx-auto px-1 py-2 md:py-10 w-screen">
+    <div className="max-w-6xl  mx-auto px-1 py-5 md:py-10 w-screen">
       <div className="flex  md:flex-row justify-between items-center ">
         <div className="flex flex-col">
           <Link href="/">
             <h1 className="font-semibold text-xl dark:text-gray-100">
               {userData.name}
             </h1>
-            <p className="text-base font-light text-gray-500 dark:text-gray-300">
+            <p className="text-base font-light text-gray-200 dark:text-gray-300">
               {userData.designation}
             </p>
           </Link>
@@ -33,8 +33,8 @@ export default function Navbar() {
             href="/"
             className={`text-base  ${
               router.asPath === "/"
-                ? "text-gray-800 font-bold dark:text-gray-400"
-                : "text-gray-600 dark:text-gray-300 font-normal "
+                ? "text-black font-bold dark:text-gray-400"
+                : "text-gray-400 dark:text-gray-300 font-normal"
             }`}
           >
             Home{" "}
@@ -108,8 +108,8 @@ export default function Navbar() {
             href="/experience"
             className={`text-base  ${
               router.asPath === "/experience"
-                ? "text-gray-800 font-bold dark:text-gray-400"
-                : "text-gray-600 dark:text-gray-300 font-normal "
+                ? "text-black font-bold dark:text-gray-400"
+                : "text-gray-400 dark:text-gray-300 font-normal "
             }`}
           >
             Experience{" "}
@@ -133,8 +133,8 @@ export default function Navbar() {
             href="/contact"
             className={`text-base  ${
               router.asPath === "/contact"
-                ? "text-gray-800 font-bold dark:text-gray-400"
-                : "text-gray-600 dark:text-gray-300 font-normal "
+                ? "text-black font-bold dark:text-gray-400"
+                : "text-gray-400 dark:text-gray-300 font-normal "
             }`}
           >
             Contact
@@ -186,7 +186,7 @@ export default function Navbar() {
           </a> */}
           <a
             href={userData.socialLinks.linkedin}
-            className="text-base font-normal text-gray-600 dark:text-gray-300"
+            className="text-base font-normal text-gray-400 dark:text-gray-300"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -233,24 +233,83 @@ export default function Navbar() {
           </button>
         </div>
       </div>
-      <div className="space-x-8 block md:hidden mt-4">
+      <div className="space-x-8  md:hidden mt-4 flex flex-row justify-evenly">
         <Link
           href="/"
-          className="text-base font-normal text-gray-600 dark:text-gray-300"
+          // className="text-base font-normal text-gray-600 dark:text-gray-300"
+          className={` text-base  ${
+              router.asPath === "/"
+                ? "text-black font-bold dark:text-white"
+                : "text-gray-300 dark:text-gray-300 font-normal "
+            }`}
         >
           Home
+          {router.asPath === "/" && (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                className="bi bi-arrow-down inline-block h-3 w-3"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
+                />
+              </svg>
+            )}
         </Link>
         <Link
           href="/experience"
-          className="text-base font-normal text-gray-600 dark:text-gray-300"
+          // className=" flex flex-row text-base font-normal text-gray-600 dark:text-gray-300"
+          className={`text-base  ${
+              router.asPath === "/experience"
+                ? "text-black font-bold dark:text-gray-400"
+                : "text-gray-300 dark:text-gray-300 font-normal "
+            }`}
         >
           Experience
+          {router.asPath === "/experience" && (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                className="bi bi-arrow-down inline-block h-3 w-3"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
+                />
+              </svg>
+            )}
         </Link>
         <Link
           href="/contact"
-          className="text-base font-normal text-gray-600 dark:text-gray-300"
+          // className="text-base font-normal text-gray-600 dark:text-gray-300"
+          className={`text-base  ${
+              router.asPath === "/contact"
+                ? "text-black font-bold dark:text-gray-400"
+                : "text-gray-300 dark:text-gray-300 font-normal "
+            }`}
         >
           Contact
+          {router.asPath === "/contact" && (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                className="bi bi-arrow-down inline-block h-3 w-3"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
+                />
+              </svg>)}
         </Link>
         {/* <Link
           href="/about"
