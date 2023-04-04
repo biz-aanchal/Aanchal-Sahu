@@ -6,7 +6,7 @@ import ReactCanvasConfetti from "react-canvas-confetti";
 
 export default function Hero() {
   // const colors_hey = ["#F59E0B", "#84CC16", "#10B981", "#3B82F6"];
-  const colors_hey = ["rgb(224 255 33 / 91%)", "#FF9800", "#ff77b6b0", "#3B82F6"];
+  const colors_hey = ["rgb(117 191 255 / 50%)", "rgb(238 252 72 / 61%)", "#ff77b6b0", "#3B82F6"];
   const [fire, setFire] = useState(false);
   const refAnimationInstance = useRef(null);
   const [intervalId, setIntervalId] = useState();
@@ -65,12 +65,20 @@ export default function Hero() {
       <div className="mx-auto text-center md:text-center lg:p-20">
         <RoughNotationGroup show={true}>
           <RainbowHighlight color={colors_hey[1]}>
-            <h1 className="text-4xl md:text-4xl font-bold text-gray-700 dark:text-gray-200 my-2">
+            <h1 className="text-2xl md:text-5xl font-bold text-black dark:text-white my-2">
               <button
               //  onClick={pauseAnimation}
-              >Hello There!</button>
+              >Hello!</button>
             </h1>
           </RainbowHighlight>
+          <RainbowHighlight color={colors_hey[0]}>
+              <h1 className="text-1xl md:text-2xl font-400 text-black dark:text-white my-5">
+                <button 
+                // onClick={stopAnimation}
+                >
+                Thankyou for visiting! This website is under construction. But you definitely can check the experience and contact us page! {'  '}</button>
+              </h1>
+            </RainbowHighlight>
           {/* {!fire ?
             <RainbowHighlight color={colors_hey[0]}>
               <h3 className="text-4xl md:text-4xl font-bold text-gray-700 dark:text-gray-200 my-2 px-5 ">
@@ -89,8 +97,9 @@ export default function Hero() {
       {/* Image container */}
       {/* <div className="hidden lg:block relative lg:w-1/2 md:w-1/2 -mr-40  ">
 
-        <div className="w-3/4  border-spacing-7 border-l-pink-700 ">
-          <img src={userData.avatarUrl} alt="avatar" className=" shadow rounded-full  border-t-8 border-b-8 border-t-pink-700 border-b-red-500" />
+        <div className="w-3/4  border-spacing-7 border-l-pink-700 text-center">
+          <img src={userData.avatarUrl} alt="avatar" className=" shadow " />
+          {/* <img src={userData.avatarUrl} alt="avatar" className=" shadow rounded-full  border-t-8 border-b-8 border-t-pink-700 border-b-red-500" /> 
           <div className="flex flex-row justify-between mt-4">
             <div className="flex flex-row space-x-4">
               <svg

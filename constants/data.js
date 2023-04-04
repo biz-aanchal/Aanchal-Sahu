@@ -2,7 +2,7 @@ const userData = {
   githubUsername: "Aanchalll",
   name: "Aanchal Sahu",
   designation: "Full-Stack Developer",
-  avatarUrl: "/avatar.png",
+  avatarUrl: "/avatar.webp",
   contactUrl: "/contact-me-girl.svg",
   email: "98saanchal@gmail.com",
   phone: "+91 8770965469",
@@ -20,7 +20,7 @@ const userData = {
     },
     // {
     //   title: "Portfolio",
-    //   link: "https://manuarora.in",
+    //   link: "https://www.linkedin.com/in/aanchal-sahu-",
     //   imgUrl: "/portfolio.png",
     // },
     // {

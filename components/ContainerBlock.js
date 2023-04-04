@@ -8,14 +8,14 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
 
   const meta = {
-    title: "Aanchal Sahu - Developer, Content Writer, Dancer",
+    title: "Aanchal Sahu - Developer",
     description: `I've been developing websites for 5 years straight. Get in touch with me to know more.`,
-    image: "/avatar.png",
+    image: "/avatar.svg",//"/avatar.png"
     type: "website",
     ...customMeta,
   };
   return (
-    <div>
+    <div className=" bg-[#913159]">
       <Head>
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
@@ -42,9 +42,9 @@ export default function ContainerBlock({ children, ...customMeta }) {
           <meta property="article:published_time" content={meta.date} />
         )}
       </Head>
-      <main className="dark:bg-gray-800 min-w-full h-screen flex flex-col justify-between">
+      <main className="dark:bg-gray-800 min-w-full h-[100vh] flex flex-col justify-between ">
         <Navbar />
-        <div className="h-200">{children}</div>
+        <div className="">{children}</div>
         <Footer />
       </main>
     </div>
