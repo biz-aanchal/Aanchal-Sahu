@@ -2,11 +2,43 @@ const userData = {
   githubUsername: "Aanchalll",
   name: "Aanchal Sahu",
   designation: "Full-Stack Developer",
-  avatarUrl: "/avatar.webp",
+  avatarUrl: "/aanchal.jpg",
   contactUrl: "/contact-me-girl.svg",
   email: "98saanchal@gmail.com",
   phone: "+91 8770965469",
   address: "Bhilai, Chhattisgarh, India.",
+  techStack: [
+    {
+      title: "React JS",
+      link: "https://tailwindmasterkit.com",
+      imgUrl: "/react-js-image.png",
+    },
+    {
+      title: "Next JS",
+      link: "https://placeholdertech.in",
+      imgUrl: "/next-JS.png",
+    },
+    {
+      title: "Node JS",
+      link: "https://algochurn.com",
+      imgUrl: "/nodejs.png",
+    },
+    {
+      title: "CSS",
+      link: "https://play.placeholdertech.in",
+      imgUrl: "/css.jpg",
+    },
+    {
+      title: "HTML",
+      link: "https://feedmeback.vercel.app",
+      imgUrl: "/html.jpg",
+    },
+    {
+      title: "Java",
+      link: "https://devmedium.vercel.app",
+      imgUrl: "/Java.jpg",
+    },
+  ],
   projects: [
     {
       title: "Tailwind Master Kit",
@@ -93,6 +125,13 @@ const userData = {
       desc: "Worked on Hotel Management System which we used to refer to as Bhukkad.",
     },
     {
+      title: "Graduation",
+      company: "SSEC Junwani, Bhilai.",
+      year: "2020",
+      companyLink: "https://www.sstc.ac.in/",
+      desc: "Major in Computer Science and Engineering with a CGPA of 7.0. Nobody asks this but it's okay.",
+    },
+    {
       title: "Internship-2",
       company: "Arawinz Soft Solutions",
       year: "2019",
@@ -105,13 +144,6 @@ const userData = {
       year: "2018",
       companyLink: "https://www.obabuji.com/",
       desc: "Learned SEO friendly Content Writing and basics of digital marketing.",
-    },
-    {
-      title: "Graduation",
-      company: "SSEC Junwani, Bhilai.",
-      year: "2020",
-      companyLink: "https://www.sstc.ac.in/",
-      desc: "Major in Computer Science and Engineering with a CGPA of 7.0. Nobody asks this but it's okay.",
     },
     {
       title: "High School",

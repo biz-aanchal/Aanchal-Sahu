@@ -2,12 +2,12 @@ import React from "react";
 import userData from "@constants/data";
 
 export default function Footer() {
-
+// bg-[#E6DFDB]
   return (
-    <div className="bg-[#E6DFDB] dark:bg-gray-900 ">
-      <div className="max-w-6xl  mx-auto px-4 py-10 md:py-10">
-        {/* <div className="h-0.5 w-full bg-white dark:bg-gray-700"></div> */}
-        <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row justify-between 
+    <div className=" bg-[#d4a59a] dark:bg-gray-900 ">
+      <div className="max-w-6xl  mx-auto px-4 py-10 md:py-10 flex flex-col justify-center md:block">
+        <div className="h-0.5 w-full bg-white dark:bg-gray-700 mb-2 md:hidden"></div>
+        <div className="flex flex-col space-y-1 md:space-y-0 md:flex-row justify-between 
         md:items-center">
           <div>
             <p>&copy; Aanchal Sahu. All Rights Reserved.</p>
