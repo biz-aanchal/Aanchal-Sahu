@@ -21,7 +21,7 @@ shadow-2xl
               <h1 className="text-gray-80 font-semibold text-2xl md:text-3xl ">
                 Get in touch, let's talk.
               </h1>
-              <p className="font-light text-3xl text-gray-700 mt-1">
+              <p className="font-light text-2xl text-gray-700 mt-1">
                 {/* Fill in the details and I'll get back to you as soon as I can. */}
                 Here's how you can reach me!
               </p>

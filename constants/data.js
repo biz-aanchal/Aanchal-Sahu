@@ -2,11 +2,43 @@ const userData = {
   githubUsername: "Aanchalll",
   name: "Aanchal Sahu",
   designation: "Full-Stack Developer",
-  avatarUrl: "/avatar.webp",
+  avatarUrl: "/aanchal.jpg",
   contactUrl: "/contact-me-girl.svg",
   email: "98saanchal@gmail.com",
   phone: "+91 8770965469",
   address: "Bhilai, Chhattisgarh, India.",
+  techStack: [
+    {
+      title: "React JS",
+      link: "https://tailwindmasterkit.com",
+      imgUrl: "/react-js-image.png",
+    },
+    {
+      title: "Next JS",
+      link: "https://placeholdertech.in",
+      imgUrl: "/next-JS.png",
+    },
+    {
+      title: "Node JS",
+      link: "https://algochurn.com",
+      imgUrl: "/nodejs.png",
+    },
+    {
+      title: "CSS",
+      link: "https://play.placeholdertech.in",
+      imgUrl: "/css.jpg",
+    },
+    {
+      title: "HTML",
+      link: "https://feedmeback.vercel.app",
+      imgUrl: "/html.jpg",
+    },
+    {
+      title: "Java",
+      link: "https://devmedium.vercel.app",
+      imgUrl: "/Java.jpg",
+    },
+  ],
   projects: [
     {
       title: "Tailwind Master Kit",

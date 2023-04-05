@@ -58,25 +58,34 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className="justify-center flex my-10 " onClick={() => { setFire(!fire) }}>
+    <div className="justify-center flex flex-col md:flex-row my-10 text-center" onClick={() => { setFire(!fire) }}>
       <ReactCanvasConfetti refConfetti={getInstance} style={canvasStyles} colors={['#A020F0']} />
 
       {/* Text container*/}
       <div className="mx-auto text-center md:text-center lg:p-20">
         <RoughNotationGroup show={true}>
-          <RainbowHighlight color={colors_hey[1]}>
-            <h1 className="text-2xl md:text-5xl font-bold text-black dark:text-white my-2">
+          {/* <RainbowHighlight color={colors_hey[1]}>
+            <h1 className="text-xl md:text-5xl font-bold text-black dark:text-white my-2">
               <button
               //  onClick={pauseAnimation}
               >Hello!</button>
             </h1>
-          </RainbowHighlight>
+          </RainbowHighlight> */}
           <RainbowHighlight color={colors_hey[0]}>
-              <h1 className="text-1xl md:text-2xl font-400 text-black dark:text-white my-5">
+              <h1 className="text-xl md:text-xl font-400 text-black dark:text-white my-5">
                 <button 
                 // onClick={stopAnimation}
                 >
-                Thankyou for visiting! This website is under construction. But you definitely can check the experience and contact us page! {'  '}</button>
+                Hey! <br/>
+                Happy exploring! {'  '}<br/>
+                </button>
+                </h1> 
+                <h1 className="text-sm md:text-xl font-400 text-black dark:text-white my-5">
+                <button>
+                Note: Some section of this website is under construction. 
+                
+                Do visit again in some days.<br/>
+                </button>
               </h1>
             </RainbowHighlight>
           {/* {!fire ?
@@ -95,11 +104,12 @@ export default function Hero() {
         </RoughNotationGroup>
       </div>
       {/* Image container */}
-      {/* <div className="hidden lg:block relative lg:w-1/2 md:w-1/2 -mr-40  ">
+      <div className=" lg:block  lg:w-1/2 md:w-1/2  flex text-center self-center ">
 
-        <div className="w-3/4  border-spacing-7 border-l-pink-700 text-center">
-          <img src={userData.avatarUrl} alt="avatar" className=" shadow " />
-          {/* <img src={userData.avatarUrl} alt="avatar" className=" shadow rounded-full  border-t-8 border-b-8 border-t-pink-700 border-b-red-500" /> 
+        <div className=" border-spacing-7 border-l-pink-7 self-center flex flex-col">
+          {/* // <img src={userData.avatarUrl} alt="avatar" className=" shadow " /> */}
+          <img src={userData.avatarUrl} alt="avatar" className=" shadow shadow-slate-900 h-40 md:h-60 md:w-[50%]" />
+          {/* {/* <img src={userData.avatarUrl} alt="avatar" className=" shadow rounded-full  border-t-8 border-b-8 border-t-pink-700 border-b-red-500" />  */}
           <div className="flex flex-row justify-between mt-4">
             <div className="flex flex-row space-x-4">
               <svg
@@ -119,7 +129,7 @@ export default function Hero() {
             </div>
           </div>
         </div>
-      </div> */}
+      </div> 
 
     </div>
   );

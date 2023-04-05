@@ -29,9 +29,13 @@ export default function ContainerBlock({ children, ...customMeta }) {
           rel="canonical"
           href={`https://yourwebsite.com${router.asPath}`}
         />
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
+{/* <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Dancing+Script:wght@700&family=Poppins:ital,wght@1,100;1,700&display=swap" rel="stylesheet"/> 
+         */}
+         <link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet"/>
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Aanchal Sahu" />
         <meta property="og:description" content={meta.description} />
