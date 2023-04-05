@@ -2,9 +2,9 @@ import React from "react";
 import userData from "@constants/data";
 
 export default function Footer() {
-
+// bg-[#E6DFDB]
   return (
-    <div className="bg-[#E6DFDB] dark:bg-gray-900 ">
+    <div className=" dark:bg-gray-900 ">
       <div className="max-w-6xl  mx-auto px-4 py-10 md:py-10">
         {/* <div className="h-0.5 w-full bg-white dark:bg-gray-700"></div> */}
         <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row justify-between 

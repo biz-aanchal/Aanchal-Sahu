@@ -93,6 +93,13 @@ const userData = {
       desc: "Worked on Hotel Management System which we used to refer to as Bhukkad.",
     },
     {
+      title: "Graduation",
+      company: "SSEC Junwani, Bhilai.",
+      year: "2020",
+      companyLink: "https://www.sstc.ac.in/",
+      desc: "Major in Computer Science and Engineering with a CGPA of 7.0. Nobody asks this but it's okay.",
+    },
+    {
       title: "Internship-2",
       company: "Arawinz Soft Solutions",
       year: "2019",
@@ -105,13 +112,6 @@ const userData = {
       year: "2018",
       companyLink: "https://www.obabuji.com/",
       desc: "Learned SEO friendly Content Writing and basics of digital marketing.",
-    },
-    {
-      title: "Graduation",
-      company: "SSEC Junwani, Bhilai.",
-      year: "2020",
-      companyLink: "https://www.sstc.ac.in/",
-      desc: "Major in Computer Science and Engineering with a CGPA of 7.0. Nobody asks this but it's okay.",
     },
     {
       title: "High School",

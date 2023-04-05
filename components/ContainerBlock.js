@@ -14,8 +14,9 @@ export default function ContainerBlock({ children, ...customMeta }) {
     type: "website",
     ...customMeta,
   };
+  // #913159
   return (
-    <div className=" bg-[#913159]">
+    <div className=" bg-[#d4a59a]">
       <Head>
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
@@ -28,6 +29,9 @@ export default function ContainerBlock({ children, ...customMeta }) {
           rel="canonical"
           href={`https://yourwebsite.com${router.asPath}`}
         />
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Dancing+Script:wght@700&family=Poppins:ital,wght@1,100;1,700&display=swap" rel="stylesheet"/> 
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Aanchal Sahu" />
         <meta property="og:description" content={meta.description} />
@@ -44,7 +48,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
       </Head>
       <main className="dark:bg-gray-800 min-w-full h-[100vh] flex flex-col justify-between ">
         <Navbar />
-        <div className="">{children}</div>
+        <div >{children}</div>
         <Footer />
       </main>
     </div>
