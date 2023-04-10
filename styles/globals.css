@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,700&display=swap');
 
 html {
-  @apply h-full;
+  @apply h-[full];
 }
 body {
   padding: 0;
@@ -17,6 +17,8 @@ body {
      */
      /* font-family: 'Dancing Script', cursive; */
      font-family: 'Kalam', cursive;
+     /* background:linear-gradient(180deg, #04fafd, 10%, #119dff, 50%, #2228c7) */
+     background:linear-gradient(180deg, #8aecee, 10%, #75c1f8, 60%, #1d2197)
 
 }
 a {
@@ -26,4 +28,15 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.profile-image{
+  /* background:linear-gradient(180deg, #04fafd, 10%, #119dff, 50%, #2228c7), */
+  /* background-image: radial-gradient(ellipse closest-side, rgb(77, 57, 57), rgb(0, 0, 0) 50%, transparent);
+  shape-outside: radial-gradient(ellipse closest-side, rgb(0, 0, 0), rgb(0, 0, 0) 50%, transparent);
+  shape-image-threshold: .3; */
+
+  background-image: linear-gradient(to bottom right, rgb(235, 240, 188), transparent);
+            shape-outside: linear-gradient(to bottom right, rgb(44, 41, 199), transparent);
+            shape-image-threshold: .3;
 }

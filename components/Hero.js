@@ -62,7 +62,7 @@ export default function Hero() {
       <ReactCanvasConfetti refConfetti={getInstance} style={canvasStyles} colors={['#A020F0']} />
 
       {/* Text container*/}
-      <div className="mx-auto text-center md:text-center lg:p-20">
+      <div className="mx-auto text-center md:text-center p-20 lg:p-20">
         <RoughNotationGroup show={true}>
           {/* <RainbowHighlight color={colors_hey[1]}>
             <h1 className="text-xl md:text-5xl font-bold text-black dark:text-white my-2">
@@ -72,35 +72,21 @@ export default function Hero() {
             </h1>
           </RainbowHighlight> */}
           <RainbowHighlight color={colors_hey[0]}>
-              <h1 className="text-xl md:text-xl font-400 text-black dark:text-white my-5">
-                <button 
-                // onClick={stopAnimation}
-                >
-                Hey! <br/>
-                Happy exploring! {'  '}<br/>
-                </button>
-                </h1> 
-                <h1 className="text-sm md:text-xl font-400 text-black dark:text-white my-5">
-                <button>
-                Note: Some section of this website is under construction. 
-                
-                Do visit again in some days.<br/>
-                </button>
-              </h1>
-            </RainbowHighlight>
-          {/* {!fire ?
-            <RainbowHighlight color={colors_hey[0]}>
-              <h3 className="text-4xl md:text-4xl font-bold text-gray-700 dark:text-gray-200 my-2 px-5 ">
-                <button onClick={startAnimation}>Now, wanna see something fun? Click me!</button>
-              </h3>
-            </RainbowHighlight>
-            :
-
-            <RainbowHighlight color={colors_hey[2]}>
-              <h1 className="text-4xl md:text-4xl font-bold text-gray-700 dark:text-gray-200 my-2">
-                <button onClick={stopAnimation}>Click to Stop, Thanks!</button>
-              </h1>
-            </RainbowHighlight>} */}
+            <h3 className="text-4xl md:text-4xl font-bold text-gray-900 dark:text-gray-200 my-2 px-5 ">
+              Hey! I'm Aanchal.
+            </h3>
+          </RainbowHighlight>
+          <RainbowHighlight color={colors_hey[0]}>
+            <h3 className="text-4xl md:text-4xl font-bold text-gray-900 dark:text-gray-200 my-2 px-5 ">
+            I'm a  Software Developer.
+            </h3>
+          </RainbowHighlight>
+          <RainbowHighlight color={colors_hey[0]}>
+            <h1 className="text-sm md:text-xl font-400 text-black dark:text-white my-5">
+             I've a zest for building web applications and learning new things everyday<br/> 
+             (how do you think I got to this confetti library anyway)!
+            </h1>
+          </RainbowHighlight>
         </RoughNotationGroup>
       </div>
       {/* Image container */}
@@ -108,9 +94,10 @@ export default function Hero() {
 
         <div className=" border-spacing-7 border-l-pink-7 self-center flex flex-col">
           {/* // <img src={userData.avatarUrl} alt="avatar" className=" shadow " /> */}
-          <img src={userData.avatarUrl} alt="avatar" className=" shadow shadow-slate-900 h-40 md:h-60 md:w-[50%]" />
+          <img src={userData.avatarUrl} alt="avatar" 
+          className=" shadow shadow-slate-900 h-40 md:h-[50%] md:w-[50%] profile-image rounded-full " />
           {/* {/* <img src={userData.avatarUrl} alt="avatar" className=" shadow rounded-full  border-t-8 border-b-8 border-t-pink-700 border-b-red-500" />  */}
-          <div className="flex flex-row justify-between mt-4">
+          <div className="flex flex-row justify-between mt-4 ml-24">
             <div className="flex flex-row space-x-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -129,7 +116,7 @@ export default function Hero() {
             </div>
           </div>
         </div>
-      </div> 
+      </div>
 
     </div>
   );
