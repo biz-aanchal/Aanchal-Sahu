@@ -4,8 +4,8 @@ import React from "react";
 export default function Experience() {
   return (
     <section className=" dark:bg-gray-800">
-      <div className="max-w-6xl mx-auto h-48 dark:bg-gray-800">
-        <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
+      <div className="max-w-6xl mx-auto  h-16 md:h-48  dark:bg-gray-800">
+        <h1 className=" text-5xl md:text-9xl font-bold py-2 md:py-20 text-center md:text-left">
           Experience
         </h1>
       </div>
