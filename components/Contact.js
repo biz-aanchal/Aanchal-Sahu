@@ -11,11 +11,11 @@ export default function Contact() {
       </div>
       {/* // shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] */}
       <div className="relative z-10 rounded-md 
-
-shadow-2xl
-bg-[#75c1f8]
+py-2
+shadow-2xl bg-[#e5cbf0]
+md:bg-[#75c1f8]
         p-4 md:p-10 lg:p-4 max-w-6xl mx-auto mb-10 -mt-4">
-        <div className="grid grid-cols-2 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="md:ml-4">
             <header className="">
               <h1 className="text-gray-80 font-semibold text-xl md:text-3xl ">
