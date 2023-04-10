@@ -13,15 +13,15 @@ export default function Contact() {
       <div className="relative z-10 rounded-md 
 
 shadow-2xl
- bg-[#f3e0dc]
+bg-[#75c1f8]
         p-4 md:p-10 lg:p-4 max-w-6xl mx-auto mb-10 -mt-4">
         <div className="grid grid-cols-2 md:grid-cols-2 gap-4">
           <div className="md:ml-4">
             <header className="">
-              <h1 className="text-gray-80 font-semibold text-2xl md:text-3xl ">
+              <h1 className="text-gray-80 font-semibold text-xl md:text-3xl ">
                 Get in touch, let's talk.
               </h1>
-              <p className="font-light text-2xl text-gray-700 mt-1">
+              <p className="font-light text-xl text-gray-700 mt-1">
                 {/* Fill in the details and I'll get back to you as soon as I can. */}
                 Here's how you can reach me!
               </p>

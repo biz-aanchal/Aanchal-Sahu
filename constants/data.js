@@ -2,7 +2,7 @@ const userData = {
   githubUsername: "Aanchalll",
   name: "Aanchal Sahu",
   designation: "Full-Stack Developer",
-  avatarUrl: "/aanchal.jpg",
+  avatarUrl: "/aanchal.png",
   contactUrl: "/contact-me-girl.svg",
   email: "98saanchal@gmail.com",
   phone: "+91 8770965469",
@@ -10,32 +10,37 @@ const userData = {
   techStack: [
     {
       title: "React JS",
-      link: "https://tailwindmasterkit.com",
+      link: "https://legacy.reactjs.org/",
       imgUrl: "/react-js-image.png",
     },
     {
       title: "Next JS",
-      link: "https://placeholdertech.in",
+      link: "https://nextjs.org/",
       imgUrl: "/next-JS.png",
     },
     {
+      title: "MUI",
+      link: "https://mui.com/",
+      imgUrl: "/mui.png",
+    },
+    {
       title: "Node JS",
-      link: "https://algochurn.com",
+      link: "https://nodejs.dev/en/learn/",
       imgUrl: "/nodejs.png",
     },
     {
       title: "CSS",
-      link: "https://play.placeholdertech.in",
+      link: "https://en.wikipedia.org/wiki/CSS",
       imgUrl: "/css.jpg",
     },
     {
       title: "HTML",
-      link: "https://feedmeback.vercel.app",
+      link: "https://en.wikipedia.org/wiki/HTML",
       imgUrl: "/html.jpg",
     },
     {
       title: "Java",
-      link: "https://devmedium.vercel.app",
+      link: "https://www.java.com/en/",
       imgUrl: "/Java.jpg",
     },
   ],

@@ -22,7 +22,7 @@ export default function Navbar() {
             <h1 className="font-semibold text-xl dark:text-gray-100">
               {userData.name}
             </h1>
-            <p className="text-base font-light text-gray-200 dark:text-gray-300">
+            <p className="text-base font-light text-gray-900 dark:text-gray-300">
               {userData.designation}
             </p>
           </Link>
@@ -157,7 +157,7 @@ export default function Navbar() {
         </div>
 
         <div className="space-x-4 flex flex-row items-center">
-          <a href={userData.socialLinks.instagram} x>
+          <a href={userData.socialLinks.instagram} >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -186,7 +186,7 @@ export default function Navbar() {
             </a> */}
           <a
             href={userData.socialLinks.linkedin}
-            className="text-base font-normal text-gray-400 dark:text-gray-300"
+            // className="text-base font-normal text-gray-400 dark:text-gray-300"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
