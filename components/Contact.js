@@ -1,7 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 import userData from "@constants/data";
 
 export default function Contact() {
+  const [data, setData] = useState({ email: 'aanchal@gamil.com' })
+
+  const saveOnClick = async (event) => {
+   const {email}=data
+    const res = fetch('https://aanchal-5c460-default-rtdb.firebaseio.com/userDataRecord.json',
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body:JSON.stringify({email})
+      }
+    )
+    if(res){
+      alert('saved')
+    }else{
+      alert('not saved')
+    }
+    // console.log('gft', res);
+  };
+
   return (
     <section >
       <div className="max-w-6xl mx-auto h-20 md:h-32  dark:bg-gray-800 antialiased">
@@ -10,11 +31,7 @@ export default function Contact() {
         </h1>
       </div>
       {/* // shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] */}
-      <div className="relative z-10 rounded-md 
-py-2
-shadow-2xl bg-[#e5cbf0]
-md:bg-[#75c1f8]
-        p-4 md:p-10 lg:p-4 max-w-6xl mx-auto mb-10 -mt-4">
+      <div className="relative z-10 rounded-md py-2 shadow-2xl bg-[#e5cbf0] md:bg-[#75c1f8] p-4 md:p-10 lg:p-4 max-w-6xl mx-auto mb-10 -mt-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="md:ml-4">
             <header className="">
@@ -80,10 +97,11 @@ md:bg-[#75c1f8]
               </div>
             </div>
           </div>
-          <><img src={userData.contactUrl} alt="avatar" 
-          className="hidden md:max-w-sm md:block" />
-        </>
+          <><img src={userData.contactUrl} alt="avatar"
+            className="hidden md:max-w-sm md:block" />
+          </>
         </div>
+        <button onClick={() => { saveOnClick() }}>save</button>
       </div>
     </section>
   );

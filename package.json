@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
+    "firebase": "^9.19.1",
     "next": "latest",
     "next-themes": "latest",
     "react": "18.2.0",
