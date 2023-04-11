@@ -50,7 +50,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
           <meta property="article:published_time" content={meta.date} />
         )}
       </Head>
-      <main className="dark:bg-gray-800 flex flex-col justify-between ">
+      <main className="dark:bg-gray-800 flex flex-col justify-between  min-w-full h-[100vh]">
         {/* min-w-full h-[100vh]   */}
         <Navbar />
         <div>{children}
