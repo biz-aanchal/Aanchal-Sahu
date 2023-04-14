@@ -63,39 +63,29 @@ export default function Hero() {
 
       {/* Text container*/}
       <div className="mx-auto text-center md:text-center px-4 lg:p-20">
-        <RoughNotationGroup show={true}>
-          {/* <RainbowHighlight color={colors_hey[1]}>
-            <h1 className="text-xl md:text-5xl font-bold text-black dark:text-white my-2">
-              <button
-              //  onClick={pauseAnimation}
-              >Hello!</button>
-            </h1>
-          </RainbowHighlight> */}
-          <RainbowHighlight color={colors_hey[0]}>
-            <h3 className="text-2xl md:text-4xl font-bold text-gray-900 dark:text-gray-200 my-0 md:my-2 px-5 ">
-              Hey! I'm Aanchal.
-            </h3>
-          </RainbowHighlight>
-          <RainbowHighlight color={colors_hey[0]}>
-            <h3 className="text-2xl md:text-4xl font-bold text-gray-900 dark:text-gray-200 my-2 px-5 ">
-            I'm a  Software Developer.
-            </h3>
-          </RainbowHighlight>
-          <RainbowHighlight color={colors_hey[0]}>
-            <h1 className="text-md md:text-xl font-400 text-black dark:text-white my-5">
-             I've a zest for building web applications and learning new things everyday<br/> 
-             (how do you think I got to know this confetti library anyway)!
-            </h1>
-          </RainbowHighlight>
-        </RoughNotationGroup>
+     
       </div>
+      <div class="content">
+  <div class="content__container">
+    <p class="content__container__text">
+      
+    </p>
+    
+    <ul class="content__container__list">
+      <li class="content__container__list__item">Namaskar!</li>
+      <li class="content__container__list__item">Bonjour!</li>
+      <li class="content__container__list__item">Olá!</li>
+      <li class="content__container__list__item">Konnichiwa!</li>
+    </ul>
+  </div>
+</div>
       {/* Image container */}
       <div className=" lg:block  lg:w-1/2 md:w-1/2  flex justify-center text-center self-center ">
 
         <div className=" border-spacing-7 border-l-pink-7 self-center flex flex-col items-center">
           {/* // <img src={userData.avatarUrl} alt="avatar" className=" shadow " /> */}
-          <img src={userData.avatarUrl} alt="avatar" 
-          className=" shadow shadow-slate-900 h-[40%] w-[40%] md:h-[50%] md:w-[50%] profile-image rounded-full " />
+          {/* <img src={userData.avatarUrl} alt="avatar"  */}
+          {/* className=" shadow shadow-slate-900 h-[40%] w-[40%] md:h-[50%] md:w-[50%] profile-image rounded-full " /> */}
           {/* {/* <img src={userData.avatarUrl} alt="avatar" className=" shadow rounded-full  border-t-8 border-b-8 border-t-pink-700 border-b-red-500" />  */}
           <div className="flex flex-row justify-center md:justify-between mt-4 md:ml-24">
             <div className="flex flex-row space-x-4">
