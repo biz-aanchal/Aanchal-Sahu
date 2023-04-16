@@ -11,7 +11,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: "Kalam", cursive;
+  font-family: 'Philosopher', sans-serif;
   background: linear-gradient(180deg, #8aecee, 10%, #75c1f8, 60%, #1d2197);
 }
 a {
@@ -23,25 +23,33 @@ a {
   box-sizing: border-box;
 }
 
-.profile-image {
+/* .profile-image {
   background-image: linear-gradient(to bottom right, rgb(235, 240, 188), transparent);
   shape-outside: linear-gradient(to bottom right, rgb(44, 41, 199), transparent);
   shape-image-threshold: 0.3;
   animation: float 4s linear infinite;
-}
+} */
 
 /* This animation is for floating */
-@keyframes float {
+/* @keyframes float {
   0% {
     box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
     transform: translatey(0px);
   }
+  10% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(-2px);
+  }
   50% {
     box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
-    transform: translatey(-20px);
+    transform: translatey(-10px);
+  }
+  90% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(-2px);
   }
   100% {
     box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
     transform: translatey(0px);
   }
-}
+} */

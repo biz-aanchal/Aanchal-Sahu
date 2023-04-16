@@ -62,7 +62,7 @@ export default function Hero() {
       <ReactCanvasConfetti refConfetti={getInstance} style={canvasStyles} colors={['#A020F0']} />
 
       {/* Text container*/}
-      <div className="mx-auto text-center md:text-center px-4 lg:p-20">
+      <div className="mx-auto text-center md:text-center px-4 lg:p-20 ">
         <RoughNotationGroup show={true}>
           {/* <RainbowHighlight color={colors_hey[1]}>
             <h1 className="text-xl md:text-5xl font-bold text-black dark:text-white my-2">
@@ -95,9 +95,9 @@ export default function Hero() {
         <div className=" border-spacing-7 border-l-pink-7 self-center flex flex-col items-center">
           {/* // <img src={userData.avatarUrl} alt="avatar" className=" shadow " /> */}
           <img src={userData.avatarUrl} alt="avatar" 
-          className=" shadow shadow-slate-900 h-[40%] w-[40%] md:h-[50%] md:w-[50%] profile-image rounded-full " />
+          className=" shadow shadow-slate-900 h-[40%] w-[40%] md:h-[50%] md:w-[50%]  rounded-full " />
           {/* {/* <img src={userData.avatarUrl} alt="avatar" className=" shadow rounded-full  border-t-8 border-b-8 border-t-pink-700 border-b-red-500" />  */}
-          <div className="flex flex-row justify-center md:justify-between mt-4 md:ml-24">
+          <div className="flex flex-row justify-center md:justify-between mt-4 md:ml-24 profile-image">
             <div className="flex flex-row space-x-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

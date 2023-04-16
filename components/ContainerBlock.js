@@ -29,13 +29,9 @@ export default function ContainerBlock({ children, ...customMeta }) {
           rel="canonical"
           href={`https://yourwebsite.com${router.asPath}`}
         />
-{/* <link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Dancing+Script:wght@700&family=Poppins:ital,wght@1,100;1,700&display=swap" rel="stylesheet"/> 
-         */}
-         <link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet"/>
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Aanchal Sahu" />
         <meta property="og:description" content={meta.description} />
@@ -50,7 +46,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
           <meta property="article:published_time" content={meta.date} />
         )}
       </Head>
-      <main className="dark:bg-gray-800 flex flex-col justify-between  min-w-full h-[100vh]">
+      <main className="dark:bg-gray-800 flex flex-col justify-between  min-w-full ">
         {/* min-w-full h-[100vh]   */}
         <Navbar />
         <div>{children}

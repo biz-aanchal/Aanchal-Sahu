@@ -4,13 +4,13 @@ import userData from "@constants/data";
 export default function TechStack() {
   return (
     <section className=" dark:bg-gray-800">
-      <div className="max-w-6xl mx-auto h-16 md:h-48  dark:bg-gray-800">
-        <h1 className=" text-5xl md:text-9xl font-bold py-2 md:py-20 text-center md:text-left">
+    <div className="max-w-6xl mx-auto  h-16 md:h-48  dark:bg-gray-800">
+      <h1 className=" text-5xl md:text-9xl font-bold py-2 md:py-20 text-center md:text-left">
           Tech Stack
         </h1>
       </div>
       {/* Grid starts here */}
-      <div className="bg-[#F1F1F1] dark:bg-gray-900">
+      <div className="bg-[#F1F1F1] dark:bg-gray-900 -mt-4">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-7 p-10 md:py-20 ">
           {userData.techStack.map((proj, idx) => (
             <ProjectCard
