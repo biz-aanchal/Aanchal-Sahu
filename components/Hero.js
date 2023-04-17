@@ -52,10 +52,10 @@ export default function Hero() {
     };
   }, [intervalId]);
 
-  useEffect(() => {
-    setFire(true)
-    startAnimation()
-  }, []);
+  // useEffect(() => {
+  //   setFire(true)
+  //   startAnimation()
+  // }, []);
 
   return (
     <div className="justify-center flex flex-col md:flex-row my-1 md:my-10 text-center" onClick={() => { setFire(!fire) }}>
