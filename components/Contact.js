@@ -11,7 +11,7 @@ export default function Contact() {
       </div>
       {/* // shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] */}
       <div className="relative z-10 rounded-md 
-py-2
+py-2 dark:bg-gray-700
 shadow-2xl bg-[#e5cbf0]
 md:bg-[#75c1f8]
         p-4 md:p-10 lg:p-4 max-w-6xl mx-auto mb-10 -mt-4">
@@ -21,7 +21,7 @@ md:bg-[#75c1f8]
               <h1 className="text-gray-80 font-semibold text-xl md:text-3xl ">
                 Get in touch, let's talk.
               </h1>
-              <p className="font-light text-xl text-gray-700 mt-1">
+              <p className="font-light text-xl text-gray-200 mt-1">
                 {/* Fill in the details and I'll get back to you as soon as I can. */}
                 Here's how you can reach me!
               </p>

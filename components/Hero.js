@@ -77,14 +77,16 @@ export default function Hero() {
             </h3>
           </RainbowHighlight>
           <RainbowHighlight color={colors_hey[0]}>
-            <h3 className="text-2xl md:text-4xl font-bold text-gray-900 dark:text-gray-200 my-2 px-5 ">
-            I'm a  Software Developer.
+            <h3 className="text-2xl md:text-2xl font-bold text-gray-900 dark:text-gray-200 my-2 px-5 ">
+           (Software Developer)
             </h3>
           </RainbowHighlight>
           <RainbowHighlight color={colors_hey[0]}>
             <h1 className="text-md md:text-xl font-400 text-black dark:text-white my-5">
-             I've a zest for building web applications and learning new things everyday<br/> 
-             (how do you think I got to know this confetti library anyway)!
+            
+           A Working professional since 2021 & a learner since always.
+            
+              
             </h1>
           </RainbowHighlight>
         </RoughNotationGroup>
@@ -95,9 +97,9 @@ export default function Hero() {
         <div className=" border-spacing-7 border-l-pink-7 self-center flex flex-col items-center">
           {/* // <img src={userData.avatarUrl} alt="avatar" className=" shadow " /> */}
           <img src={userData.avatarUrl} alt="avatar" 
-          className=" shadow shadow-slate-900 h-[40%] w-[40%] md:h-[50%] md:w-[50%]  rounded-full " />
+          className=" shadow shadow-slate-900 h-[40%] w-[40%] md:h-[50%] md:w-[50%]  rounded-full profile-image" />
           {/* {/* <img src={userData.avatarUrl} alt="avatar" className=" shadow rounded-full  border-t-8 border-b-8 border-t-pink-700 border-b-red-500" />  */}
-          <div className="flex flex-row justify-center md:justify-between mt-4 md:ml-24 profile-image">
+          <div className="flex flex-row justify-center md:justify-between mt-4 md:ml-24 ">
             <div className="flex flex-row space-x-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

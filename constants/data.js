@@ -3,7 +3,7 @@ const userData = {
   name: "Aanchal Sahu",
   designation: "Full-Stack Developer",
   avatarUrl: "/aanchal.png",
-  contactUrl: "/contact-me-girl.svg",
+  contactUrl: "/working-woman-unscreen.gif",
   email: "98saanchal@gmail.com",
   phone: "+91 8770965469",
   address: "Bhilai, Chhattisgarh, India.",

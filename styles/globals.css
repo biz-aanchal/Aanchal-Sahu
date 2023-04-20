@@ -12,7 +12,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Philosopher', sans-serif;
-  background: linear-gradient(180deg, #8aecee, 10%, #75c1f8, 60%, #1d2197);
+  background: linear-gradient(180deg, #3165f3, 10%, #fafdff, 60%, #ffffff);
 }
 a {
   color: inherit;
@@ -23,12 +23,13 @@ a {
   box-sizing: border-box;
 }
 
-/* .profile-image {
-  background-image: linear-gradient(to bottom right, rgb(235, 240, 188), transparent);
+/* .profile-image { */
+  /* background-image: url(/) */
+  /* background-image: linear-gradient(to bottom right, rgb(235, 240, 188), transparent);
   shape-outside: linear-gradient(to bottom right, rgb(44, 41, 199), transparent);
   shape-image-threshold: 0.3;
-  animation: float 4s linear infinite;
-} */
+  animation: float 4s linear infinite; */
+/* } */
 
 /* This animation is for floating */
 /* @keyframes float {
