@@ -84,7 +84,7 @@ export default function Hero() {
           <RainbowHighlight color={colors_hey[0]}>
             <h1 className="text-md md:text-xl font-400 text-black dark:text-white my-5">
             
-           A Working professional since 2021 & a learner since always.
+           A Working Professional since 2021 & a Learner since Always.
             
               
             </h1>
