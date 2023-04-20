@@ -16,7 +16,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
   };
   //className=" bg-[#d4a59a]"
   return (
-    <div className=" ">
+    <div className="h-[100%]  ">
       <Head>
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
