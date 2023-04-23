@@ -4,7 +4,7 @@ import userData from "@constants/data";
 export default function Footer() {
 // bg-[#E6DFDB]
   return (
-    <div className=" bg-[transparent]  ">
+    <div className=" bg-[transparent]  dark:bg-gray-800">
       <div className="max-w-6xl  mx-auto px-4 py-10 md:py-10 flex flex-col justify-center md:block">
         <div className="h-0.5 w-full bg-[transparent] dark:bg-gray-700 md:mb-2 md:hidden"></div>
         <div className="flex flex-col space-y-1 md:space-y-0 md:flex-row justify-between 

@@ -3,6 +3,7 @@ import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 import { RainbowHighlight } from "./RainbowHighlight";
 import userData from "@constants/data";
 import ReactCanvasConfetti from "react-canvas-confetti";
+import Projects from "./Projects";
 
 export default function Hero() {
   // const colors_hey = ["#F59E0B", "#84CC16", "#10B981", "#3B82F6"];
@@ -35,11 +36,6 @@ export default function Hero() {
     }
   }, [intervalId, nextTickAnimation]);
 
-  // const pauseAnimation = useCallback(() => {
-  //   clearInterval(intervalId);
-  //   setIntervalId(null);
-  // }, [intervalId]);
-
   const stopAnimation = useCallback(() => {
     clearInterval(intervalId);
     setIntervalId(null);
@@ -52,41 +48,27 @@ export default function Hero() {
     };
   }, [intervalId]);
 
-  // useEffect(() => {
-  //   setFire(true)
-  //   startAnimation()
-  // }, []);
-
   return (
-    <div className="justify-center flex flex-col md:flex-row my-1 md:my-10 text-center" onClick={() => { setFire(!fire) }}>
+    <>
+    <div className="justify-center flex flex-col md:flex-row my-5 md:my-10 text-center" onClick={() => { setFire(!fire) }}>
       <ReactCanvasConfetti refConfetti={getInstance} style={canvasStyles} colors={['#A020F0']} />
 
       {/* Text container*/}
       <div className="mx-auto text-center md:text-center px-4 lg:p-20 ">
         <RoughNotationGroup show={true}>
-          {/* <RainbowHighlight color={colors_hey[1]}>
-            <h1 className="text-xl md:text-5xl font-bold text-black dark:text-white my-2">
-              <button
-              //  onClick={pauseAnimation}
-              >Hello!</button>
-            </h1>
-          </RainbowHighlight> */}
           <RainbowHighlight color={colors_hey[0]}>
             <h3 className="text-2xl md:text-4xl font-bold text-gray-900 dark:text-gray-200 my-0 md:my-2 px-5 ">
               Hey! I'm Aanchal.
             </h3>
           </RainbowHighlight>
-          <RainbowHighlight color={colors_hey[0]}>
+          {/* <RainbowHighlight color={colors_hey[0]}>
             <h3 className="text-2xl md:text-2xl font-bold text-gray-900 dark:text-gray-200 my-2 px-5 ">
            (Software Developer)
             </h3>
-          </RainbowHighlight>
+          </RainbowHighlight> */}
           <RainbowHighlight color={colors_hey[0]}>
             <h1 className="text-md md:text-xl font-400 text-black dark:text-white my-5">
-            
-           A Working Professional since 2021 & a Learner since Always.
-            
-              
+           A Working Professional (Software Developer) since 2021 & A Learner Since Always.
             </h1>
           </RainbowHighlight>
         </RoughNotationGroup>
@@ -95,11 +77,10 @@ export default function Hero() {
       <div className=" lg:block  lg:w-1/2 md:w-1/2  flex justify-center text-center self-center ">
 
         <div className=" border-spacing-7 border-l-pink-7 self-center flex flex-col items-center">
-          {/* // <img src={userData.avatarUrl} alt="avatar" className=" shadow " /> */}
           <img src={userData.avatarUrl} alt="avatar" 
-          className=" shadow shadow-slate-900 h-[40%] w-[40%] md:h-[50%] md:w-[50%]  rounded-full profile-image" />
+          className="shadow shadow-slate-900 dark:shadow-slate-200 h-[40%] w-[40%] md:h-[50%] md:w-[50%]  rounded-full profile-image" />
           {/* {/* <img src={userData.avatarUrl} alt="avatar" className=" shadow rounded-full  border-t-8 border-b-8 border-t-pink-700 border-b-red-500" />  */}
-          <div className="flex flex-row justify-center md:justify-between mt-4 md:ml-24 ">
+          {/* <div className="flex flex-row justify-center md:justify-between mt-4 md:ml-24 ">
             <div className="flex flex-row space-x-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -116,11 +97,14 @@ export default function Hero() {
               </svg>
               <p className="font-mono">That's me</p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
+
     </div>
+    <Projects/>
+    </>
   );
 }
 

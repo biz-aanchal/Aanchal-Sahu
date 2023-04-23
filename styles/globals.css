@@ -12,7 +12,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Philosopher', sans-serif;
-  background: linear-gradient(180deg, #3165f3, 10%, #fafdff, 60%, #ffffff);
+  background: linear-gradient(180deg, #ffffff, 10%, #ffffff, 90%, #f0f8ff);
 }
 a {
   color: inherit;
@@ -23,14 +23,28 @@ a {
   box-sizing: border-box;
 }
 
-/* .profile-image { */
-  /* background-image: url(/) */
+ .profile-image:hover{ 
+ 
+  background-image: url(/bg-hover.gif);
+ /* background-image: url(/bg.png);
+  background-size: 310px ; */
   /* background-image: linear-gradient(to bottom right, rgb(235, 240, 188), transparent);
   shape-outside: linear-gradient(to bottom right, rgb(44, 41, 199), transparent);
   shape-image-threshold: 0.3;
   animation: float 4s linear infinite; */
-/* } */
+ }
 
+
+ .work{ 
+ 
+  background-image: url(/bg-hover.gif);
+ /* background-image: url(/bg.png);
+  background-size: 310px ; */
+  /* background-image: linear-gradient(to bottom right, rgb(235, 240, 188), transparent);
+  shape-outside: linear-gradient(to bottom right, rgb(44, 41, 199), transparent);
+  shape-image-threshold: 0.3;
+  animation: float 4s linear infinite; */
+ }
 /* This animation is for floating */
 /* @keyframes float {
   0% {

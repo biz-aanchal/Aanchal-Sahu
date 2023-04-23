@@ -46,44 +46,34 @@ const userData = {
   ],
   projects: [
     {
-      title: "Tailwind Master Kit",
-      link: "https://tailwindmasterkit.com",
-      imgUrl: "/tmk.jpg",
+      title: "Entera (SASS Product)",
+      link: "https://entera.in/",
+      imgUrl: "/entera.jpg",
     },
     {
-      title: "PlaceholderTech",
-      link: "https://placeholdertech.in",
-      imgUrl: "/placeholdertech.png",
-    },
-    // {
-    //   title: "Portfolio",
-    //   link: "https://www.linkedin.com/in/aanchal-sahu-",
-    //   imgUrl: "/portfolio.png",
-    // },
-    // {
-    //   title: "CovidRescue",
-    //   link: "https://covidrescue.co.in",
-    //   imgUrl: "/covidrescue.png",
-    // },
-    {
-      title: "Algochurn",
-      link: "https://algochurn.com",
-      imgUrl: "/algochurn.png",
+      title: "OTT Platform (design)",
+      link: "https://pro-ott.netlify.app/",
+      imgUrl: "/ott.jpg",
     },
     {
-      title: "Playground",
-      link: "https://play.placeholdertech.in",
-      imgUrl: "/playground.png",
+      title: "Contact Management System",
+      link: "https://github.com/Aanchalll/ContactManagementSystem-SpringTilesHibernate",
+      imgUrl: "/contact-management.jpg",
     },
     {
-      title: "Feedmeback",
+      title: "Java Projects using OOPS",
+      link: "https://github.com/Aanchalll/Java-Projects",
+      imgUrl: "/calc.jpg",
+    },
+    {
+      title: "Validations",
       link: "https://feedmeback.vercel.app",
-      imgUrl: "/feedmeback.png",
+      imgUrl: "/validations.png",
     },
     {
-      title: "Devmedium",
-      link: "https://devmedium.vercel.app",
-      imgUrl: "/devmedium.png",
+      title: "Arpan Decores (Interior Designing Website)",
+      link: "/",
+      imgUrl: "/arpan-decores.jpg",
     },
   ],
   about: {
