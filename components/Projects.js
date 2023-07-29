@@ -3,7 +3,7 @@ import userData from "@constants/data";
 
 export default function Projects() {
   return (
-    <section className="dark:bg-gray-800  pt-[18%]  md:pt-[10%] lg:pt-[2%]">
+    <section className="dark:bg-gray-800  pt-[10%]  md:pt-[10%] lg:pt-[2%]">
       <div className="max-w-6xl mx-auto h-16 md:h-48  dark:bg-[transparent] ">
         <h1 className=" text-2xl  md:text-4xl lg:text-4xl font-bold  md:py-20 text-center md:text-left relative">
           Some of my work:
@@ -12,14 +12,14 @@ export default function Projects() {
             src={"/work.svg"}
             alt="avatar"
             className=" h-[40%] w-[30%] md:h-[40%] md:w-[30%] relative 
-          left-[30%] bottom-[22%] md:left-[60%] md:bottom-[60%] lg:left-[65%] lg:bottom-[10rem]
+          left-[33%] bottom-[1%] md:left-[60%] md:bottom-[60%] lg:left-[65%] lg:bottom-[10rem]
           "
           />
         </h1>
       </div>
 
       {/* Grid starts here */}
-      <div className="  dark:bg-[transparent] bg-[#F1F1F1]">
+      <div className="  dark:bg-[transparent] bg-[#F1F1F1] mt-[15%]">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-5 px-5 gap-8 py-10 md:py-20 md:pb-20 content-center">
           {userData.projects.map((proj, idx) => (
             <ProjectCard

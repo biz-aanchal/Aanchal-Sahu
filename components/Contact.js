@@ -17,7 +17,7 @@ md:bg-[#75c1f8]
               <h1 className="text-gray-80 font-semibold text-xl md:text-3xl ">
                 Get in touch, let's talk.
               </h1>
-              <p className="font-light text-xl text-gray-200 mt-1">
+              <p className="font-light text-xl text-gray-400 mt-1">
                 {/* Fill in the details and I'll get back to you as soon as I can. */}
                 Here's how you can reach me!
               </p>
