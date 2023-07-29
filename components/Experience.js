@@ -9,7 +9,7 @@ export default function Experience() {
           My Journey
           {/* Some of My Work: */}
           <img
-            src={"/work.svg"}
+            src={"/experience.svg"}
             alt="avatar"
             className=" h-[40%] w-[30%] md:h-[40%] md:w-[20%] relative 
           left-[33%] bottom-[1%] md:left-[60%] md:bottom-[60%] lg:left-[75%] lg:bottom-[6rem]
@@ -17,7 +17,7 @@ export default function Experience() {
           />
         </h1>
       </div>
-      <div className="bg-[#F1F1F1] dark:bg-gray-900 -mt-4">
+      <div className="bg-[#F1F1F1] dark:bg-gray-900 mt-[15%]">
         <div className="grid grid-cols-1 dark:bg-gray-900 max-w-xl mx-auto py-20">
           {/* Experience card */}
           {userData.experience.map((exp, idx) => (

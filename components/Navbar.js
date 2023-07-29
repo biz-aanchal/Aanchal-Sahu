@@ -268,7 +268,7 @@ export default function Navbar() {
                 : "text-gray-900 dark:text-gray-300 font-normal "
             }`}
           >
-            Tech Stack
+            Work
             {router.asPath === "/work" && (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
