@@ -80,15 +80,15 @@ export default function Navbar() {
             )}
           </Link> */}
           <Link
-            href="/techstack"
+            href="/work"
             className={`text-base  ${
-              router.asPath === "/techstack"
+              router.asPath === "/work"
                 ? "text-black font-bold dark:text-gray-400"
                 : "text-gray-900 dark:text-gray-300 font-normal "
             }`}
           >
-            Tech Stack
-            {router.asPath === "/techstack" && (
+           Work
+            {router.asPath === "/work" && (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -261,15 +261,15 @@ export default function Navbar() {
             )}
         </Link>
         <Link
-            href="/techstack"
+            href="/work"
             className={`text-base  ${
-              router.asPath === "/techstack"
+              router.asPath === "/work"
                 ? "text-black font-bold dark:text-gray-400"
                 : "text-gray-900 dark:text-gray-300 font-normal "
             }`}
           >
             Tech Stack
-            {router.asPath === "/techstack" && (
+            {router.asPath === "/work" && (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"

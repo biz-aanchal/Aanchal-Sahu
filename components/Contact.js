@@ -3,18 +3,14 @@ import userData from "@constants/data";
 
 export default function Contact() {
   return (
-    <section >
-      <div className="max-w-6xl mx-auto h-20 md:h-32  dark:bg-gray-800 antialiased">
-        <h1 className=" text-5xl md:text-9xl font-bold  text-center md:text-left">
-          Contact
-        </h1>
-      </div>
-      {/* // shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] */}
-      <div className="relative z-10 rounded-md 
+    <section>
+      <div
+        className="relative z-10 rounded-md 
 py-2 dark:bg-gray-700
 shadow-2xl bg-[rgb(117 191 255 / 50%)]
 md:bg-[#75c1f8] 
-        p-4 md:p-10 lg:p-4 max-w-6xl mx-auto mb-10 -mt-4">
+        p-4 md:p-10 lg:p-4 max-w-6xl mx-auto mb-10 "
+      >
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="md:ml-4">
             <header className="">
@@ -27,8 +23,10 @@ md:bg-[#75c1f8]
               </p>
             </header>
             <div className="icons-container inline-flex flex-col my-10">
-              <div className="flex flex-row items-center space-x-6 rounded-md 
-               hover:border hover:border-blue-500 p-2">
+              <div
+                className="flex flex-row items-center space-x-6 rounded-md 
+               hover:border hover:border-blue-500 p-2"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -46,8 +44,10 @@ md:bg-[#75c1f8]
                   {userData.phone}
                 </p>
               </div>
-              <div className="flex flex-row items-center space-x-6 rounded-md 
-                hover:border hover:border-blue-500 p-2">
+              <div
+                className="flex flex-row items-center space-x-6 rounded-md 
+                hover:border hover:border-blue-500 p-2"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -62,8 +62,10 @@ md:bg-[#75c1f8]
                   {userData.email}
                 </p>
               </div>
-              <div className="flex flex-row items-center space-x-6 rounded-md 
-              hover:border hover:border-blue-500 p-2">
+              <div
+                className="flex flex-row items-center space-x-6 rounded-md 
+              hover:border hover:border-blue-500 p-2"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -80,9 +82,13 @@ md:bg-[#75c1f8]
               </div>
             </div>
           </div>
-          <><img src={userData.contactUrl} alt="avatar" 
-          className="hidden md:max-w-sm md:block" />
-        </>
+          <>
+            <img
+              src={userData.contactUrl}
+              alt="avatar"
+              className="hidden md:max-w-sm md:block"
+            />
+          </>
         </div>
       </div>
     </section>
