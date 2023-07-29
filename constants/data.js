@@ -2,7 +2,7 @@ const userData = {
   githubUsername: "Aanchalll",
   name: "Aanchal Sahu",
   designation: "Full-Stack Developer",
-  avatarUrl: "/aanchal.png",
+  avatarUrl: "/aanchal1.jpg",
   contactUrl: "/working-woman-unscreen.gif",
   email: "98saanchal@gmail.com",
   phone: "+91 8770965469",
@@ -70,11 +70,11 @@ const userData = {
       link: "https://feedmeback.vercel.app",
       imgUrl: "/validations.png",
     },
-    {
-      title: "Arpan Decores (Interior Designing Website)",
-      link: "/",
-      imgUrl: "/arpan-decores.jpg",
-    },
+    // {
+    //   title: "Arpan Decores (Interior Designing Website)",
+    //   link: "/",
+    //   imgUrl: "/arpan-decores.jpg",
+    // },
   ],
   about: {
     title:

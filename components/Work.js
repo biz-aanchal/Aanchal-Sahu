@@ -1,17 +1,28 @@
 import React from "react";
 import userData from "@constants/data";
+import Projects from "./Projects";
 
-export default function TechStack() {
+export default function Work() {
   return (
     <section className=" dark:bg-gray-800">
-    <div className="max-w-6xl mx-auto  h-16 md:h-48  dark:bg-gray-800">
+    {/* <div className="max-w-6xl mx-auto  h-16 md:h-48  dark:bg-gray-800">
       <h1 className=" text-5xl md:text-9xl font-bold py-2 md:py-20 text-center md:text-left">
-          Tech Stack
+          Work
+        </h1>
+      </div> */}
+      <div className="max-w-6xl mx-auto h-16 md:h-48  dark:bg-[transparent]">
+        <h1 className=" text-2xl  md:text-4xl lg:text-4xl font-bold  md:py-20 text-center md:text-left relative">
+       Techstack:
+          {/* Some of My Work: */}
+          <img src={'/teckstack.svg'} alt="avatar" 
+          className=" h-[40%] w-[20%] md:h-[40%] md:w-[25%] relative 
+          left-[40%] bottom-[1%] md:left-[60%] md:bottom-[60%] lg:left-[70%] lg:bottom-[9rem] " 
+          />
         </h1>
       </div>
       {/* Grid starts here */}
-      <div className="bg-[#F1F1F1] dark:bg-gray-900 -mt-4">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-7 p-10 md:py-20 ">
+      <div className="bg-[#F1F1F1] dark:bg-gray-900 ">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-7 p-10 md:py-20 ">
           {userData.techStack.map((proj, idx) => (
             <ProjectCard
               title={proj.title}
@@ -22,6 +33,7 @@ export default function TechStack() {
           ))}
         </div>
       </div>
+      <Projects />
     </section>
   );
 }
@@ -30,7 +42,7 @@ const ProjectCard = ({ title, link, imgUrl, number }) => {
   return (
     <a href={link} className=" w-full md:w-full block shadow-2xl">
       <div className="relative overflow-hidden">
-        <div className="h-55 md:h-72 object-cover">
+        <div className="h-55 md:h-52 object-cover">
           <img
             src={imgUrl}
             alt="portfolio"

@@ -2,24 +2,25 @@ import React from "react";
 import userData from "@constants/data";
 
 export default function Footer() {
-// bg-[#E6DFDB]
+  // bg-[#E6DFDB]
   return (
     <div className=" bg-[transparent]  dark:bg-gray-800">
-      <div className="max-w-6xl  mx-auto px-4 py-10 md:py-10 flex flex-col justify-center md:block">
+      <div className="text-xs md:text-sm  max-w-6xl  mx-auto px-4 py-10 md:py-10 flex flex-col justify-center md:block">
         <div className="h-0.5 w-full bg-[transparent] dark:bg-gray-700 md:mb-2 md:hidden"></div>
-        <div className="flex flex-col space-y-1 md:space-y-0 md:flex-row justify-between 
-        md:items-center">
+        <div
+          className="flex flex-col space-y-1 md:space-y-0 md:flex-row justify-between 
+        md:items-center"
+        >
           <div>
             <p>&copy; Aanchal Sahu. All Rights Reserved.</p>
           </div>
           <div>
-            {/* Support me by keeping this in the footer, please. :) */}
             <div>
               Developed by
               <div className="inline-block transform hover:scale-110 hover:-rotate-3 transition duration-300">
                 <a
                   className="hover:bg-red-500 rounded-md px-2 py-1  hover:text-gray-50"
-                  href={userData?.socialLinks?.linkedin}
+                  // href={userData?.socialLinks?.linkedin}
                 >
                   Aanchal Sahu
                 </a>
