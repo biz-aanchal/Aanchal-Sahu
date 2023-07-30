@@ -14,6 +14,16 @@ const userData = {
       imgUrl: "/react-js-image.png",
     },
     {
+      title: "React Native",
+      link: "https://legacy.reactjs.org/",
+      imgUrl: "/react-native.jpg",
+    },
+    {
+      title: "TypeScript",
+      link: "https://www.typescriptlang.org/",
+      imgUrl: "/typescript.png",
+    },
+    {
       title: "Next JS",
       link: "https://nextjs.org/",
       imgUrl: "/next-JS.png",

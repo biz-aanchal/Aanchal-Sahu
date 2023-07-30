@@ -8,13 +8,13 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
 
   const meta = {
-    title: "Aanchal Sahu - Developer",
-    description: `I've been developing websites for 5 years straight. Get in touch with me to know more.`,
-    image: "/avatar.svg",//"/avatar.png"
+    title: "Aanchal Sahu - Software Developer",
+    description: `I've been developing websites for 3 years straight. Get in touch with me to know more.`,
+    image: "/avatar.svg",
     type: "website",
     ...customMeta,
   };
-  //className=" bg-[#d4a59a]"
+
   return (
     <div className="  ">
       <Head>
@@ -29,9 +29,12 @@ export default function ContainerBlock({ children, ...customMeta }) {
           rel="canonical"
           href={`https://yourwebsite.com${router.asPath}`}
         />
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap"
+          rel="stylesheet"
+        />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Aanchal Sahu" />
         <meta property="og:description" content={meta.description} />
@@ -49,8 +52,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
       <main className="dark:bg-gray-800 flex flex-col justify-between  min-w-full  h-[100vh] ">
         {/* min-w-full h-[100vh]   */}
         <Navbar />
-        <div>{children}
-      </div>
+        <div>{children}</div>
         <Footer />
       </main>
     </div>
