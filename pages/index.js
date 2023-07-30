@@ -10,8 +10,8 @@ import userData from "@constants/data";
 export default function Home({ repositories }) {
   return (
     <ContainerBlock
-      title="Aanchal Sahu - Developer, Writer, Creator"
-      description="This is a template built specifically for my blog - Creating a developer portfolio that gets you a job."
+      title="Aanchal Sahu - Software Developer"
+      description="This is my portfolio with all the detailed description of my professional journey."
      
     >
 {/* <button  onClick={()=>{setFire(!fire)}}>fIRE!</button> */}

@@ -12,12 +12,12 @@ export default function Work() {
             src={"/teckstack.svg"}
             alt="avatar"
             className=" h-[40%] w-[20%] md:h-[40%] md:w-[25%] relative 
-          left-[40%] bottom-[1%] md:left-[60%] md:bottom-[60%] lg:left-[70%] lg:bottom-[9rem] "
+          left-[40%] bottom-[1%] md:left-[60%] md:bottom-[60%] lg:left-[72%] lg:bottom-[9rem] "
           />
         </h1>
       </div>
       {/* Grid starts here */}
-      <div className="bg-[#F1F1F1] dark:bg-gray-900 mt-[15%]">
+      <div className="bg-[#F1F1F1] dark:bg-gray-900 mt-[15%] md:mt-[1%]">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-7 p-10 md:py-20 ">
           {userData.techStack.map((proj, idx) => (
             <ProjectCard
@@ -45,7 +45,7 @@ const ProjectCard = ({ title, link, imgUrl, number }) => {
             className="transform hover:scale-125 transition duration-2000 ease-out object-cover h-full w-full"
           />
         </div>
-        <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
+        <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-blue-800 rounded-md px-2">
           {title}
         </h1>
         <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">

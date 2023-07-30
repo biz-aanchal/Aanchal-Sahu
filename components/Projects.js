@@ -12,14 +12,14 @@ export default function Projects() {
             src={"/work.svg"}
             alt="avatar"
             className=" h-[40%] w-[30%] md:h-[40%] md:w-[30%] relative 
-          left-[33%] bottom-[1%] md:left-[60%] md:bottom-[60%] lg:left-[65%] lg:bottom-[10rem]
+          left-[33%] bottom-[1%] md:left-[60%] md:bottom-[60%] lg:left-[70%] lg:bottom-[10rem]
           "
           />
         </h1>
       </div>
 
       {/* Grid starts here */}
-      <div className="  dark:bg-[transparent] bg-[#F1F1F1] mt-[15%]">
+      <div className="  dark:bg-[transparent] bg-[#F1F1F1] mt-[15%] md:mt-[1%]">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-5 px-5 gap-8 py-10 md:py-20 md:pb-20 content-center">
           {userData.projects.map((proj, idx) => (
             <ProjectCard
