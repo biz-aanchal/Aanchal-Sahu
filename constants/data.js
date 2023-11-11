@@ -6,7 +6,7 @@ const userData = {
   contactUrl: "/working-woman-unscreen.gif",
   email: "98saanchal@gmail.com",
   phone: "+91 8770965469",
-  address: "Bhilai, Chhattisgarh, India.",
+  address: "Bhilai, Chhattisgarh, India, 490006.",
   techStack: [
     {
       title: "React JS",
@@ -14,29 +14,9 @@ const userData = {
       imgUrl: "/react-js-image.png",
     },
     {
-      title: "React Native",
-      link: "https://legacy.reactjs.org/",
-      imgUrl: "/react-native.jpg",
-    },
-    {
-      title: "TypeScript",
-      link: "https://www.typescriptlang.org/",
-      imgUrl: "/typescript.png",
-    },
-    {
-      title: "Next JS",
-      link: "https://nextjs.org/",
-      imgUrl: "/next-JS.png",
-    },
-    {
       title: "MUI",
       link: "https://mui.com/",
       imgUrl: "/mui.png",
-    },
-    {
-      title: "Node JS",
-      link: "https://nodejs.dev/en/learn/",
-      imgUrl: "/nodejs.png",
     },
     {
       title: "CSS",
@@ -47,6 +27,31 @@ const userData = {
       title: "HTML",
       link: "https://en.wikipedia.org/wiki/HTML",
       imgUrl: "/html.jpg",
+    },
+    {
+      title: "Next JS",
+      link: "https://nextjs.org/",
+      imgUrl: "/next-JS.png",
+    },
+    {
+      title: "TypeScript",
+      link: "https://www.typescriptlang.org/",
+      imgUrl: "/typescript.png",
+    },
+    {
+      title: "JavaScript",
+      link: "https://www.typescriptlang.org/",
+      imgUrl: "/javascript.jpeg",
+    },
+    {
+      title: "React Native",
+      link: "https://legacy.reactjs.org/",
+      imgUrl: "/react-native.jpg",
+    },
+    {
+      title: "Node JS",
+      link: "https://nodejs.dev/en/learn/",
+      imgUrl: "/nodejs.png",
     },
     {
       title: "Java",
@@ -109,44 +114,37 @@ const userData = {
   },
   experience: [
     {
-      title: "Software Developer",
+      title: "Software Engineer",
+      company: "BizPilot Financial Technology Private Limited",
+      year: "08/2023 - Current",
+      companyLink: "https://www.bizpilot.in/",
+      desc: "Working on the newest features of BizPilot which is our product to automate finance with the accuracy required.",
+    },
+    {
+      title: "Software Engineer",
       company: "Bizolution Technologies Pvt. Ltd.",
-      year: "2023",
+      year: "07/2021 - 07/2023",
       companyLink: "https://www.bizolutiontech.com/",
       desc: "I'm one of two main leads in our main product - Entera - which is an employee and payroll management SASS product.",
     },
     {
-      title: "Associate Software Developer",
-      company: "Bizolution Technologies Pvt. Ltd.",
-      year: "2021",
-      companyLink: "https://www.bizolutiontech.com/",
-      desc: "Contributed to our lead product - Entera - which is an employee and payroll management SASS product.",
-    },
-    {
-      title: " Software Developer Intern (Internship-3)",
-      company: "Bizolution Technologies Pvt. Ltd.",
-      year: "2021",
-      companyLink: "https://www.bizolutiontech.com/",
-      desc: "Worked on Hotel Management System which we used to refer to as Bhukkad.",
-    },
-    {
       title: "Graduation",
       company: "SSEC Junwani, Bhilai.",
-      year: "2020",
+      year: "06/2016 - 06/2020",
       companyLink: "https://www.sstc.ac.in/",
       desc: "Major in Computer Science and Engineering with a CGPA of 7.0. Nobody asks this but it's okay.",
     },
     {
       title: "Internship-2",
       company: "Arawinz Soft Solutions",
-      year: "2019",
+      year: "07/2019 - 09/2019",
       companyLink: "https://www.arawinz.com/",
       desc: "Worked here as an content writer, wrote many eceptional contents for the main product- Esay.in.",
     },
     {
       title: "Internship-1",
       company: "Obabuji.com",
-      year: "2018",
+      year: "07/2018 - 09/2018",
       companyLink: "https://www.obabuji.com/",
       desc: "Learned SEO friendly Content Writing and basics of digital marketing.",
     },
