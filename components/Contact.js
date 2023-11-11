@@ -23,7 +23,7 @@ md:bg-[#75c1f8]
               </p>
             </header>
             <div className="icons-container inline-flex flex-col my-10">
-              <div
+              {/* <div
                 className="flex flex-row items-center space-x-6 rounded-md 
                hover:border hover:border-blue-500 p-2"
               >
@@ -43,7 +43,7 @@ md:bg-[#75c1f8]
                 <p className="text-gray-80 font-light text-xl">
                   {userData.phone}
                 </p>
-              </div>
+              </div> */}
               <div
                 className="flex flex-row items-center space-x-6 rounded-md 
                 hover:border hover:border-blue-500 p-2"

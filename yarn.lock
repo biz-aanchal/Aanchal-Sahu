@@ -7,10 +7,10 @@
   resolved "https://registry.npmjs.org/@next/env/-/env-13.0.4.tgz"
   integrity sha512-N5Z3bdxBzoxrC5bwykDFITzdWuwDteOdZ+7nxixY+I1XpRX8/iQYbw2wuXMdqdfBGm2NNUpAqg8YF2e4oAC2UQ==
 
-"@next/swc-win32-x64-msvc@13.0.4":
+"@next/swc-darwin-arm64@13.0.4":
   version "13.0.4"
-  resolved "https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-13.0.4.tgz"
-  integrity sha512-vXtbo9N1FdtZZRcv4BliU28tTYrkb1EnVpUiiFFe88I6kS9aZVTMY9Z/OtDR52rl1JF1hgs9sL/59D/TQqSATQ==
+  resolved "https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-13.0.4.tgz"
+  integrity sha512-/lajev+9GSie+rRTl5z8skW9RJwZ+TwMKLzzM24TbDk8lUjqPTyJZ/cU0NDj8J7VQAZ6EehACSh9rcJeBRtLuA==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -231,6 +231,11 @@ fraction.js@^4.2.0:
   version "4.2.0"
   resolved "https://registry.npmjs.org/fraction.js/-/fraction.js-4.2.0.tgz"
   integrity sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==
+
+fsevents@~2.3.2:
+  version "2.3.3"
+  resolved "https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz"
+  integrity sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==
 
 function-bind@^1.1.1:
   version "1.1.1"
@@ -487,7 +492,7 @@ react-canvas-confetti@^1.4.0:
     "@types/canvas-confetti" "1.6.0"
     canvas-confetti "1.6.0"
 
-react-dom@*, react-dom@^16.13.1, react-dom@^18.2.0, react-dom@18.2.0:
+react-dom@*, react-dom@^18.2.0, react-dom@18.2.0:
   version "18.2.0"
   resolved "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
   integrity sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==
@@ -495,14 +500,14 @@ react-dom@*, react-dom@^16.13.1, react-dom@^18.2.0, react-dom@18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
-react-rough-notation@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/react-rough-notation/-/react-rough-notation-1.0.1.tgz"
-  integrity sha512-UZQZ09XiZgbDRZFFP0qaFmTzs0rMKO929Npa5fHb2TOzLvKNEamaUtjRwjBx79cFzf+xMl/y8Y4HbYvvcKHQGQ==
+react-rough-notation@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.npmjs.org/react-rough-notation/-/react-rough-notation-1.0.5.tgz"
+  integrity sha512-TTDnw1Qn96PwitGsBsjNh4911+o26Vivj/dhHbsHHhN6lDgkQsFhv1X/eOnCjHA2EOyDE5JBQ1HEZ1yW8sCmKA==
   dependencies:
-    rough-notation "^0.4.0"
+    rough-notation "^0.5.1"
 
-react@*, react@^16.13.1, "react@^16.8.0 || ^17.0.0 || ^18.0.0", react@^18.2.0, "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", react@18.2.0:
+react@*, "react@^16.8.0 || ^17.0.0 || ^18.0.0", react@^18.2.0, "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", react@18.2.0:
   version "18.2.0"
   resolved "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
@@ -537,10 +542,10 @@ reusify@^1.0.4:
   resolved "https://registry.npmjs.org/reusify/-/reusify-1.0.4.tgz"
   integrity sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==
 
-rough-notation@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.npmjs.org/rough-notation/-/rough-notation-0.4.0.tgz"
-  integrity sha512-hDgn9qMIxWnfY+WWjt30aLMtDHR13H8r/NI3EQNdJiEFAzpklH5nKg4eH/thpxCWTYzyg8ueMsKIfz9MzOBQ4Q==
+rough-notation@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.npmjs.org/rough-notation/-/rough-notation-0.5.1.tgz"
+  integrity sha512-ITHofTzm13cWFVfoGsh/4c/k2Mg8geKgBCwex71UZLnNuw403tCRjYPQ68jSAd37DMbZIePXPjDgY0XdZi9HPw==
 
 run-parallel@^1.1.9:
   version "1.2.0"
