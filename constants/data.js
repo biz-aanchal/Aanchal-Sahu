@@ -114,6 +114,13 @@ const userData = {
   },
   experience: [
     {
+      title: "Freelancer",
+      company: "Arpan Decores",
+      year: "11/2023 - Current",
+      companyLink: "http://arpandecores.in/",
+      desc: "Working on the official website of Arpan Decores.",
+    },
+    {
       title: "Software Engineer",
       company: "BizPilot Financial Technology Private Limited",
       year: "08/2023 - Current",
