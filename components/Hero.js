@@ -58,7 +58,7 @@ export default function Hero() {
               Hi there, I'm Aanchal. 
             </h5>
             <h1 className="text-md md:text-xl font-400 text-black dark:text-white my-1">
-            With 2.4 years of experience in web development, working with startup companies and freelancing, I have made substantial contributions to live projects, enhancing the practical dimension of my skill set. Since 2021, I have been deeply involved in the realm of software development, valuing both the learning process and the tangible results.
+            With 2.5 years of experience in web development, working with startup companies and freelancing, I have made substantial contributions to live projects, enhancing the practical dimension of my skill set. Since 2021, I have been deeply involved in the realm of software development, valuing both the learning process and the tangible results.
             </h1>
       </div>
       {/* Image container */}
